@@ -7,12 +7,12 @@ def caesar_cipher(text, shift):
     for char in text:
         if char.isalpha():
             shifted = ord(char) + shift
-            if char.kucukharf():
+            if char.islower():
                 if shifted > ord('z'):
                     shifted -= 29
                 elif shifted < ord('a'):
                     shifted += 29
-            elif char.buyukharf():
+            elif char.isupper():
                 if shifted > ord('Z'):
                     shifted -= 29
                 elif shifted < ord('A'):
