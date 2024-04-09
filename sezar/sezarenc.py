@@ -31,7 +31,7 @@ def encrypt():
     text = request.form.get('text')
     shift = int(request.form.get('shift', 1)) 
     if not text:
-        return "No text provided for encryption", 400
+        return "Hic bisi yazmadin", 400
     encrypted_text = caesar_cipher(text, shift)
     return encrypted_text
 
