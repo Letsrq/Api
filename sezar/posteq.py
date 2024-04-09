@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import requests
 from time import sleep
 
@@ -45,5 +45,4 @@ while True:
         print("Gizli metin:", encrypted_text)
     else:
         print("Hata:", response.text)
-31
->>>>>>> 443dcc37bafa6a11519a2b06ced60bd1a0d13ddb
+
